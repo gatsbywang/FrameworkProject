@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FrameworkProject.iml" filepath="$PROJECT_DIR$/FrameworkProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aopframework/aopframework.iml" filepath="$PROJECT_DIR$/aopframework/aopframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpframework/httpframework.iml" filepath="$PROJECT_DIR$/httpframework/httpframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/umlframework/umlframework.iml" filepath="$PROJECT_DIR$/umlframework/umlframework.iml" />
+    </modules>
+  </component>
+</project>
