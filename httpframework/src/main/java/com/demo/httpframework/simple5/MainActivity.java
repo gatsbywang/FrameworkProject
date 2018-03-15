@@ -3,7 +3,8 @@ package com.demo.httpframework.simple5;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.darren.architect_day01.R;
+
+import com.demo.httpframework.R;
 
 import java.util.HashMap;
 import java.util.Map;

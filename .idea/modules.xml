@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ButterKnife-annotations/ButterKnife-annotations.iml" filepath="$PROJECT_DIR$/ButterKnife-annotations/ButterKnife-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ButterKnife-compiler/ButterKnife-compiler.iml" filepath="$PROJECT_DIR$/ButterKnife-compiler/ButterKnife-compiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/FrameworkProject.iml" filepath="$PROJECT_DIR$/FrameworkProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aopframework/aopframework.iml" filepath="$PROJECT_DIR$/aopframework/aopframework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/httpframework/httpframework.iml" filepath="$PROJECT_DIR$/httpframework/httpframework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/umlframework/umlframework.iml" filepath="$PROJECT_DIR$/umlframework/umlframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/butterknife/butterknife.iml" filepath="$PROJECT_DIR$/butterknife/butterknife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/butterknifeframework/butterknifeframework.iml" filepath="$PROJECT_DIR$/butterknifeframework/butterknifeframework.iml" />
     </modules>
   </component>
 </project>

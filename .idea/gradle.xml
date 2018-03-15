@@ -8,9 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/aopframework" />
-            <option value="$PROJECT_DIR$/httpframework" />
-            <option value="$PROJECT_DIR$/umlframework" />
+            <option value="$PROJECT_DIR$/ButterKnife-annotations" />
+            <option value="$PROJECT_DIR$/ButterKnife-compiler" />
+            <option value="$PROJECT_DIR$/butterknife" />
+            <option value="$PROJECT_DIR$/butterknifeframework" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
