@@ -89,7 +89,7 @@ public class ButterKnifeProcessor extends AbstractProcessor {
             for (Element element : elements) {
                 System.out.println("element:" + element.getSimpleName().toString()); //element 返回的是注解所在的变量或者方法或者类
                 Element encloseingElement = element.getEnclosingElement();
-                System.out.println("encloseingElement:" + encloseingElement.getSimpleName().toString());
+                System.out.println("encloseingElement:" + encloseingElement.getSimpleName().toString());//encloseingElement 此处指向mainActivity
             }
 
             //解析 属性activity -> List<Element>
@@ -106,6 +106,7 @@ public class ButterKnifeProcessor extends AbstractProcessor {
                 viewBinderElements.add(element);
             }
             //生成代码
+            //此处扫描完之后，elementMap中 key放的是activity,value放的是view的集合
             for (Map.Entry<Element, List<Element>> entry : elementMap.entrySet()) {
                 Element encloseingElement = entry.getKey();
                 List<Element> viewBinderElements = entry.getValue();

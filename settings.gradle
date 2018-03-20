@@ -2,3 +2,4 @@
 
 //include ':httpframework', ':aopframework', ':umlframework', ':genericityframework'
 include ':butterknifeframework', ':ButterKnife-annotations', ':ButterKnife-compiler', ':butterknife'
+include ':payframework', ':pay-annotations', ':pay-compiler'

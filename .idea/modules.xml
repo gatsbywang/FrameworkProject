@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/FrameworkProject.iml" filepath="$PROJECT_DIR$/FrameworkProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/butterknife/butterknife.iml" filepath="$PROJECT_DIR$/butterknife/butterknife.iml" />
       <module fileurl="file://$PROJECT_DIR$/butterknifeframework/butterknifeframework.iml" filepath="$PROJECT_DIR$/butterknifeframework/butterknifeframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pay-annotations/pay-annotations.iml" filepath="$PROJECT_DIR$/pay-annotations/pay-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pay-compiler/pay-compiler.iml" filepath="$PROJECT_DIR$/pay-compiler/pay-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payframework/payframework.iml" filepath="$PROJECT_DIR$/payframework/payframework.iml" />
     </modules>
   </component>
 </project>
