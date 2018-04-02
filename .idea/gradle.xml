@@ -8,13 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ButterKnife-annotations" />
-            <option value="$PROJECT_DIR$/ButterKnife-compiler" />
-            <option value="$PROJECT_DIR$/butterknife" />
-            <option value="$PROJECT_DIR$/butterknifeframework" />
-            <option value="$PROJECT_DIR$/pay-annotations" />
-            <option value="$PROJECT_DIR$/pay-compiler" />
-            <option value="$PROJECT_DIR$/payframework" />
+            <option value="$PROJECT_DIR$/activitymanagerframework" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

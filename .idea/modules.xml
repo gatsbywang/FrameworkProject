@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ButterKnife-annotations/ButterKnife-annotations.iml" filepath="$PROJECT_DIR$/ButterKnife-annotations/ButterKnife-annotations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ButterKnife-compiler/ButterKnife-compiler.iml" filepath="$PROJECT_DIR$/ButterKnife-compiler/ButterKnife-compiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/FrameworkProject.iml" filepath="$PROJECT_DIR$/FrameworkProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/butterknife/butterknife.iml" filepath="$PROJECT_DIR$/butterknife/butterknife.iml" />
-      <module fileurl="file://$PROJECT_DIR$/butterknifeframework/butterknifeframework.iml" filepath="$PROJECT_DIR$/butterknifeframework/butterknifeframework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pay-annotations/pay-annotations.iml" filepath="$PROJECT_DIR$/pay-annotations/pay-annotations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pay-compiler/pay-compiler.iml" filepath="$PROJECT_DIR$/pay-compiler/pay-compiler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/payframework/payframework.iml" filepath="$PROJECT_DIR$/payframework/payframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitymanagerframework/activitymanagerframework.iml" filepath="$PROJECT_DIR$/activitymanagerframework/activitymanagerframework.iml" />
     </modules>
   </component>
 </project>

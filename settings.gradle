@@ -1,5 +1,8 @@
 //include ':app'
 
 //include ':httpframework', ':aopframework', ':umlframework', ':genericityframework'
-include ':butterknifeframework', ':ButterKnife-annotations', ':ButterKnife-compiler', ':butterknife'
-include ':payframework', ':pay-annotations', ':pay-compiler'
+//include ':butterknifeframework', ':ButterKnife-annotations', ':ButterKnife-compiler', ':butterknife', ':handlerframework'
+//include ':payframework', ':pay-annotations', ':pay-compiler'
+//include ':handlerframework'
+//include ':singletonframework'
+include ':activitymanagerframework'
