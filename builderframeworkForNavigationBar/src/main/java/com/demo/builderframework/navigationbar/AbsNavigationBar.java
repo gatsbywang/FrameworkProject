@@ -4,6 +4,10 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by 花歹 on 2018/4/3.
@@ -12,7 +16,7 @@ import android.view.ViewGroup;
  * Thought:
  */
 
-class AbsNavigationBar implements INavigation {
+class AbsNavigationBar<B extends AbsNavigationBar.Builder> implements INavigation {
 
     private Builder mBuilder;
 
@@ -41,7 +45,22 @@ class AbsNavigationBar implements INavigation {
      */
     @Override
     public void attachNavigationParms() {
+        Map<Integer, CharSequence> textMaps = mBuilder.mTextMaps;
+        for (Map.Entry<Integer, CharSequence> entry : textMaps.entrySet()) {
+            TextView textView = findViewById(entry.getKey());
+            textView.setText(entry.getValue());
+        }
 
+        Map<Integer, View.OnClickListener> clickMaps = mBuilder.mClickListenerMaps;
+        for (Map.Entry<Integer, View.OnClickListener> entry : clickMaps.entrySet()) {
+            View view = findViewById(entry.getKey());
+            view.setOnClickListener(entry.getValue());
+        }
+    }
+
+    public <T extends View> T findViewById(int viewId) {
+
+        return (T) mNavigationBar.findViewById(viewId);
     }
 
     /**
@@ -60,8 +79,8 @@ class AbsNavigationBar implements INavigation {
      *
      * @return
      */
-    public Builder getBuilder() {
-        return mBuilder;
+    public B getBuilder() {
+        return (B)mBuilder;
     }
 
     /**
@@ -75,21 +94,43 @@ class AbsNavigationBar implements INavigation {
 
         public ViewGroup mParent;
 
+        private Map<Integer, CharSequence> mTextMaps;
+
+        public Map<Integer, View.OnClickListener> mClickListenerMaps;
+
         public Builder(Context context, int layoutId, ViewGroup parent) {
             this.mContext = context;
 
             this.mLayoutId = layoutId;
 
             this.mParent = parent;
+
+            this.mTextMaps = new HashMap<>();
         }
 
+        /**
+         * 设置文本
+         *
+         * @param viewId
+         * @param text
+         * @return
+         */
         public B setText(int viewId, String text) {
 
+            mTextMaps.put(viewId, text);
             return (B) this;
         }
 
+        /**
+         * 设置点击事件
+         *
+         * @param viewId
+         * @param onClickListener
+         * @return
+         */
         public B setOnClickListener(int viewId, View.OnClickListener onClickListener) {
 
+            mClickListenerMaps.put(viewId, onClickListener);
             return (B) this;
         }
 

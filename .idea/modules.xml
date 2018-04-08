@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FrameworkProject.iml" filepath="$PROJECT_DIR$/FrameworkProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/activitymanagerframework/activitymanagerframework.iml" filepath="$PROJECT_DIR$/activitymanagerframework/activitymanagerframework.iml" />
+      <module fileurl="file://F:\AndroidStudioWorkSpace\FrameworkProject\builderframeworkForNavigationBar\builderframework.iml" filepath="F:\AndroidStudioWorkSpace\FrameworkProject\builderframeworkForNavigationBar\builderframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/builderframeworkForNavigationBar/builderframeworkForNavigationBar.iml" filepath="$PROJECT_DIR$/builderframeworkForNavigationBar/builderframeworkForNavigationBar.iml" />
     </modules>
   </component>
 </project>
