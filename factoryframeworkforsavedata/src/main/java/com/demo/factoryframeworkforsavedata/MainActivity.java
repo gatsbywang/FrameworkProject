@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
 //        IOFactory ioFactory = new MemoryIOFactory();
 //        IOHandler ioHandler = ioFactory.createIOHandler();
 
-        IOHandler ioHandler = IOHandlerFactory.getDefaultIOHandler();
+//        IOHandler ioHandler = IOHandlerFactory.getDefaultIOHandler();
     }
 }

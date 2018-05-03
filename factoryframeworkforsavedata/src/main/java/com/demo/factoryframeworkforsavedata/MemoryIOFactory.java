@@ -9,8 +9,10 @@ package com.demo.factoryframeworkforsavedata;
 
 @Deprecated
 public class MemoryIOFactory implements IOFactory {
+
+
     @Override
-    public IOHandler createIOHandler() {
-        return new MemoryIOHandler();
+    public IOHandler createIOHandler(Class<? extends IOHandler> ioHandlerClass) {
+        return null;
     }
 }

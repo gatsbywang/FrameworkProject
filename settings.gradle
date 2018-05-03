@@ -5,4 +5,10 @@
 //include ':payframework', ':pay-annotations', ':pay-compiler'
 //include ':handlerframework'
 //include ':singletonframework'
-include ':activitymanagerframework', ':builderframeworkForNavigationBar'
+//include ':activitymanagerframework'
+//include ':builderframeworkForNavigationBar'
+//include ':factoryframeworkforsavedata'
+//include ':decoratorForRecyclerviewHeader'
+//include ':TemplateFramework',
+include ':strategyPattern'
+//include ':BaseActivityForTemplate'
