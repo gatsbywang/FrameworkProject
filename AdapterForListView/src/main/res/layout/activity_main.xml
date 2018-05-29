@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.demo.framework.adapterforlistview.CustomListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_lv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.framework.adapterforlistview.MainActivity">
+
+
+
+</com.demo.framework.adapterforlistview.CustomListView>
