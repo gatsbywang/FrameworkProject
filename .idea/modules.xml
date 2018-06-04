@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdapterForListView/AdapterForListView.iml" filepath="$PROJECT_DIR$/AdapterForListView/AdapterForListView.iml" />
       <module fileurl="file://$PROJECT_DIR$/FrameworkProject.iml" filepath="$PROJECT_DIR$/FrameworkProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/activitymanagerframework/activitymanagerframework.iml" filepath="$PROJECT_DIR$/activitymanagerframework/activitymanagerframework.iml" />
-      <module fileurl="file://F:\AndroidStudioWorkSpace\FrameworkProject\builderframeworkForNavigationBar\builderframework.iml" filepath="F:\AndroidStudioWorkSpace\FrameworkProject\builderframeworkForNavigationBar\builderframework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/builderframeworkForNavigationBar/builderframeworkForNavigationBar.iml" filepath="$PROJECT_DIR$/builderframeworkForNavigationBar/builderframeworkForNavigationBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strategyPattern/strategyPattern.iml" filepath="$PROJECT_DIR$/strategyPattern/strategyPattern.iml" />
     </modules>
   </component>
 </project>

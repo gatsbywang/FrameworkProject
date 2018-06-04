@@ -8,6 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AdapterForListView" />
+            <option value="$PROJECT_DIR$/Observer" />
             <option value="$PROJECT_DIR$/strategyPattern" />
           </set>
         </option>

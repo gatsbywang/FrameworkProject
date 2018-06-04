@@ -10,5 +10,6 @@
 //include ':factoryframeworkforsavedata'
 //include ':decoratorForRecyclerviewHeader'
 //include ':TemplateFramework',
-include ':strategyPattern'
+include ':strategyPattern', ':AdapterForListView', ':Observer'
+//        include':LoggerForStrategyPattern'
 //include ':BaseActivityForTemplate'
