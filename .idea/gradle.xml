@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/DynamicProxy" />
+            <option value="$PROJECT_DIR$/iterator" />
             <option value="$PROJECT_DIR$/prototype" />
           </set>
         </option>
