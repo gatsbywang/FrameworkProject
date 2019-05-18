@@ -11,6 +11,7 @@
 //include ':decoratorForRecyclerviewHeader'
 //include ':TemplateFramework',
 //include ':strategyPattern', ':AdapterForListView', ':Observer'
-include ':DynamicProxy', ':prototype', ':iterator'
+//include ':DynamicProxy', ':prototype', ':iterator'
+include ':chainofresponsibility', ':Facade', ':Flyweight', ':CommandPattern'
 //        include':LoggerForStrategyPattern'
 //include ':BaseActivityForTemplate'
