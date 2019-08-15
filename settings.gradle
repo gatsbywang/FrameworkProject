@@ -12,6 +12,8 @@
 //include ':TemplateFramework',
 //include ':strategyPattern', ':AdapterForListView', ':Observer'
 //include ':DynamicProxy', ':prototype', ':iterator'
-include ':chainofresponsibility', ':Facade', ':Flyweight', ':CommandPattern'
+//include ':chainofresponsibility', ':Facade', ':Flyweight', ':CommandPattern', ':StatuePattern', ':bridge', ':VisitorPattern'
+include   ':EventBus', ':okhttp', ':RxJava', ':mvp'
+
 //        include':LoggerForStrategyPattern'
 //include ':BaseActivityForTemplate'
